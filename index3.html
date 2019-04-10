@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <head>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+</head>
+<body>
+  <!-- jumbotron container clas for top area of page       -->
+  <div class="jumbotron">
+                <h1 class="text-center">Crystal Collector</h1>
+                <h3 class="text-center">Choose a crystal to get points to match the initial score displayed below</h3>
+              </div>
+              <!-- container for bottom area of page containing code -->
+              <div class="container">
+                    <div class="row">
+                      <div class="col"><div ><p><h1 id="your-number">Your Number</h1></p><h2 id="show-number"></h2>
+                      </div>
+                    </div>
+                      <div class="col">
+                        <p><div id="wins"><h2 id="wins">Wins: </h2></div></p>
+                        <p><div id="losses"><h2 id="losses">Losses: </h2></div></p>
+                        <!-- Second row to contain crystal image buttons -->
+                    </div>
+                      <div class="w-100"></div>
+                      <div class="col"><button id="blue-crystal"</button><img src="assets/images/blue_crystal.jpg" style="width:50px;height:50px;"></button><button id="green-crystal"><img src="assets/images/Green_crystal.jpg" style="width:50px;height:50px;"></button><button id="purple-crystal"><img src="assets/images/purple_crystal.jpg" style="width:50px;height:50px;"></button><button id="red-crystal"><img src="assets/images/red_crystal.jpg" style="width:50px;height:50px;"></button></div>
+                      
+                    </div>
+                  </div>
+                  <div class="container">
+                      <div class="row">
+                        <div class="col"><div><h1 id="total-score">Your Total Score: </h1></div>
+                      </div>
+                        <div class="col">
+                          <div id="your-total-score"><h2 id="total-score"></h2></div>
+                      </div>
+                        <div class="w-100"></div>
+                        <div class="col"></div>
+                        
+                      </div>
+                    </div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
